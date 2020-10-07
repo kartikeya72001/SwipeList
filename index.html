@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Light Switch</title>
+    </head>
+    <body>
+        <div class="con-items">
+            <h2>
+                Things to do <b>4</b>
+            </h2>
+            <div 
+                ontouchstart="handleStart(event)" 
+                ontouchmove="handleTouchMove(event)" 
+                ontouchend="handleEnd(event)" 
+                class="item swipe">
+                <button class="config">
+                    <div class="con-icon">
+                        <i class='bx bx-cog' ></i>
+                    </div>
+                </button>
+                <div class="con-text">
+                    <h3>
+                        Landing page design
+                    </h3>
+                    <p>
+                        Create a landing page with the theme of the dark series
+                    </p>
+                </div>
+                <button class="remove">
+                    <div class="con-icon">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </button>
+            </div>
+            <div ontouchstart="handleStart(event)" ontouchmove="handleTouchMove(event)" ontouchend="handleEnd(event)" class="item swipe">
+                <button class="config">
+                    <div class="con-icon">
+                        <i class='bx bx-cog' ></i>
+                    </div>
+                </button>
+                <div class="con-text">
+                    <h3>
+                        Create chat app
+                    </h3>
+                    <p>
+                        Make app about the interaction chat, fix bugs in responsive
+                    </p>
+                </div>
+                <button class="remove">
+                    <div class="con-icon">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </button>
+            </div>
+            <div ontouchstart="handleStart(event)" ontouchmove="handleTouchMove(event)" ontouchend="handleEnd(event)" class="item swipe">
+                <button class="config">
+                    <div class="con-icon">
+                        <i class='bx bx-cog' ></i>
+                    </div>
+                </button>
+                <div class="con-text">
+                    <h3>
+                        Add icons
+                    </h3>
+                    <p>
+                        Add icon liberia with light and dark colors
+                    </p>
+                </div>
+                <button class="remove">
+                    <div class="con-icon">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </button>
+            </div>
+            <div ontouchstart="handleStart(event)" ontouchmove="handleTouchMove(event)" ontouchend="handleEnd(event)" class="item swipe">
+                <button class="config">
+                    <div class="con-icon">
+                        <i class='bx bx-cog' ></i>
+                    </div>
+                </button>
+                <div class="con-text">
+                    <h3>
+                        Vue 3
+                    </h3>
+                    <p>
+                        install vuejs 3 dependencies for typescript development
+                    </p>
+                </div>
+                <button class="remove">
+                    <div class="con-icon">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </button>
+            </div>
+            <div ontouchstart="handleStart(event)" ontouchmove="handleTouchMove(event)" ontouchend="handleEnd(event)" class="item swipe">
+                <button class="config">
+                    <div class="con-icon">
+                        <i class='bx bx-cog' ></i>
+                    </div>
+                </button>
+                <div class="con-text">
+                    <h3>
+                        Information gathering
+                    </h3>
+                    <p>
+                        Obtain information on the new project and its scope
+                    </p>
+                </div>
+                <button class="remove">
+                    <div class="con-icon">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    </body>
+</html>
